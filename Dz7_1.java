@@ -1,17 +1,27 @@
 package dz;
 //Задача №1
 //
-//Дан массив:
-//int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
-//необходимо вывести все нечетные числа из массива.
+//Необходимо написать 4 метода:
+//сложение 2х чисел
+//вычитание 2х чисел
+//умножение 2х чисел
+//деление 2х чисел
 public class Dz7_1 {
-    public static void main(String[] args) {
-        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
 
-        for (int i = 0; i < array.length ; i++) {
-            if(array[i] % 2 !=0) {
-                System.out.println(array[i]);
-            }
-        }
+    public static int adittionTwoNumber(int a , int b){
+        return a + b;
     }
+
+    public static int minus(int a , int b){
+        return a - b;
+    }
+
+    public static int division(int a, int b){
+        return a / b;
+    }
+
+    public static int multiplication(int a, int b) {
+        return a * b;
+    }
+
 }
