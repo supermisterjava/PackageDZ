@@ -8,5 +8,6 @@ public class MyMathTest {
         int result = MyMath1.sum(2,2);
 
         Assert.assertEquals(result, 4);
+        Assert.assertEquals(result, 4);
     }
 }
